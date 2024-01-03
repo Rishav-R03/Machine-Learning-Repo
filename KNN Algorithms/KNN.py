@@ -10,7 +10,7 @@ from sklearn.metrics import accuracy_score
 
 # KNN Prediction
 
-dataset = pd.read_csv('"E:\Machine Learning\KNN Algorithms\diabetes.csv"')
+dataset = pd.read_csv("E:\Machine Learning\Machine-Learning-Repo\KNN Algorithms\diabetes.csv")
 print(len(dataset))
 print(dataset.head())
 # replace zeroes
