@@ -13,7 +13,7 @@ from sklearn.metrics import accuracy_score
 dataset = pd.read_csv("E:\Machine Learning\Machine-Learning-Repo\KNN Algorithms\diabetes.csv")
 print(len(dataset))
 print(dataset.head())
-# replace zeroes
+# replace zeroes : 
 zero_not_accepted = ['Glucose','BloodPressure','SkinThickness','BMI','Insulin']
 
 for column in zero_not_accepted:
